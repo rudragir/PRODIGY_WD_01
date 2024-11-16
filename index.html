@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="page1">
+        <div id="nav">
+          <div id="nav-left">
+            <h1>ASCENDBIX</h1>
+          </div>
+          <div id="nav-centre">
+            <div class="menu">
+              <ul>
+                <a href="#">home</a>
+                <a href="#services">services</a>
+                <a href="#about">about</a>
+                <a href="#contact">contact us</a>
+              </ul>
+            </div>
+          </div>
+          <div id="nav-right">
+            <div id="signup">
+              <button id="signup-btn">Sign Up</button>
+            </div>
+            <div id="login">
+              <button id="login-btn">Login</button>
+            </div>
+          </div>
+        </div>
+        <div id="home">
+          <div id="home-left">
+            <div id="home-left-top">
+              <p>BOOST YOUR</p>
+              <p>STARTUP BUSINESS</p>
+              <P>FASTER</P>
+            </div>
+            <div id="home-left-bottom">
+              <p>Grow your business with proven strategies and expert support.</p>
+              <button id="get-started-btn">GET STARTED</button>
+            </div>
+          </div>
+          <div id="home-right">
+            <div id="img">
+              <img src="https://cdn.pixabay.com/photo/2020/12/18/00/43/business-5840870_640.png" alt="Business Growth" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sign Up Modal -->
+<div id="signup-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="signup-close">&times;</span>
+    <h2>Sign Up</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</div>
+
+<!-- Login Modal -->
+<div id="login-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="login-close">&times;</span>
+    <h2>Login</h2>
+    <form>
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
